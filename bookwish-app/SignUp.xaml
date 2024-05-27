@@ -1,0 +1,77 @@
+﻿<Window x:Class="bookwish_app.SignUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bookwish_app"
+        mc:Ignorable="d"
+            Title="BookWish" Height="720" Width="1280"
+    WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Left Panel with Image -->
+        <Border Grid.Column="0">
+            <Image Source="pack://application:,,,/Resources/LoginSignIn/bookshelf.png" Stretch="Fill"/>
+        </Border>
+
+        <!-- Right Panel with Form -->
+        <Grid Grid.Column="1" Background="White" Margin="40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Sign Up Form -->
+            <StackPanel VerticalAlignment="Center">
+
+                <!-- Logo and Text -->
+                <StackPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    <Image Source="pack://application:,,,/Resources/logo.png" Width="250" Height="100" Margin="0,10"/>
+                    <TextBlock Text="Sign Up your Account" FontSize="24" FontWeight="Bold" Margin="0,10" TextAlignment="Center"/>
+                </StackPanel>
+
+                <TextBlock Text="Username" FontSize="16" FontWeight="Bold" Margin="0,10"/>
+                <TextBox Margin="0,0,0,10" Padding="10" Name="UsernameTextBox"/>
+
+                <TextBlock Text="Email" FontSize="16" FontWeight="Bold" Margin="0,10"/>
+                <TextBox Margin="0,0,0,10" Padding="10" Name="EmailTextBox"/>
+
+                <TextBlock Text="Password" FontSize="16" FontWeight="Bold" Margin="0,10"/>
+                <PasswordBox Margin="0,0,0,10" Padding="10" Name="PasswordBox"/>
+
+                <Button Content="Sign Up" Background="Black" Foreground="White" Padding="10" Margin="0,20,0,10" Cursor="Hand" Click="SignUp_Click">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" Padding="10" CornerRadius="5">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <StackPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    <TextBlock Text="Already have an account?" FontSize="12" TextAlignment="Center"/>
+                </StackPanel>
+
+                <Button Content="Login" Background="#EEEEEE" Padding="10" Margin="0,10,0,0" Click="Login_Click" Cursor="Hand" >
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" Padding="10" CornerRadius="5">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

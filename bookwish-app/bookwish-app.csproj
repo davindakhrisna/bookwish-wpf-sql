@@ -1,0 +1,76 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>bookwish_app</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Admin\active\add.png" />
+    <None Remove="Resources\Admin\active\delete.png" />
+    <None Remove="Resources\Admin\active\edit.png" />
+    <None Remove="Resources\Admin\add.png" />
+    <None Remove="Resources\Admin\delete.png" />
+    <None Remove="Resources\Admin\edit.png" />
+    <None Remove="Resources\Admin\logout.png" />
+    <None Remove="Resources\Detail\active\favorite.png" />
+    <None Remove="Resources\Detail\borrow.png" />
+    <None Remove="Resources\Detail\buy.png" />
+    <None Remove="Resources\Detail\cart.png" />
+    <None Remove="Resources\Detail\favorite.png" />
+    <None Remove="Resources\folder-icon.png" />
+    <None Remove="Resources\LoginSignIn\bookshelf.png" />
+    <None Remove="Resources\logo.png" />
+    <None Remove="Resources\Main\active\bestseller.png" />
+    <None Remove="Resources\Main\active\cart.png" />
+    <None Remove="Resources\Main\active\category.png" />
+    <None Remove="Resources\Main\active\discover.png" />
+    <None Remove="Resources\Main\active\favorite.png" />
+    <None Remove="Resources\Main\bestseller.png" />
+    <None Remove="Resources\Main\cart.png" />
+    <None Remove="Resources\Main\category.png" />
+    <None Remove="Resources\Main\discover.png" />
+    <None Remove="Resources\Main\favorite.png" />
+    <None Remove="Resources\Main\logout.png" />
+    <None Remove="Resources\Main\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Admin\active\add.png" />
+    <Resource Include="Resources\Admin\active\delete.png" />
+    <Resource Include="Resources\Admin\active\edit.png" />
+    <Resource Include="Resources\Admin\add.png" />
+    <Resource Include="Resources\Admin\delete.png" />
+    <Resource Include="Resources\Admin\edit.png" />
+    <Resource Include="Resources\Admin\logout.png" />
+    <Resource Include="Resources\Detail\active\favorite.png" />
+    <Resource Include="Resources\Detail\borrow.png" />
+    <Resource Include="Resources\Detail\buy.png" />
+    <Resource Include="Resources\Detail\cart.png" />
+    <Resource Include="Resources\Detail\favorite.png" />
+    <Resource Include="Resources\folder-icon.png" />
+    <Resource Include="Resources\LoginSignIn\bookshelf.png" />
+    <Resource Include="Resources\logo.png" />
+    <Resource Include="Resources\Main\active\bestseller.png" />
+    <Resource Include="Resources\Main\active\cart.png" />
+    <Resource Include="Resources\Main\active\category.png" />
+    <Resource Include="Resources\Main\active\discover.png" />
+    <Resource Include="Resources\Main\active\favorite.png" />
+    <Resource Include="Resources\Main\bestseller.png" />
+    <Resource Include="Resources\Main\cart.png" />
+    <Resource Include="Resources\Main\category.png" />
+    <Resource Include="Resources\Main\discover.png" />
+    <Resource Include="Resources\Main\favorite.png" />
+    <Resource Include="Resources\Main\logout.png" />
+    <Resource Include="Resources\Main\user.png" />
+  </ItemGroup>
+
+</Project>

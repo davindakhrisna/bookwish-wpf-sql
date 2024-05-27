@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1C694-5FEB-4DD0-B8DE-73E90E9AB0F1}|bookwish-app\\bookwish-app.csproj|c:\\users\\cogito ergo sum\\source\\repos\\bookwish-app\\bookwish-app\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1C694-5FEB-4DD0-B8DE-73E90E9AB0F1}|bookwish-app\\bookwish-app.csproj|solutionrelative:bookwish-app\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1C694-5FEB-4DD0-B8DE-73E90E9AB0F1}|bookwish-app\\bookwish-app.csproj|c:\\users\\cogito ergo sum\\source\\repos\\bookwish-app\\bookwish-app\\creation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1C694-5FEB-4DD0-B8DE-73E90E9AB0F1}|bookwish-app\\bookwish-app.csproj|solutionrelative:bookwish-app\\creation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1C694-5FEB-4DD0-B8DE-73E90E9AB0F1}|bookwish-app\\bookwish-app.csproj|c:\\users\\cogito ergo sum\\source\\repos\\bookwish-app\\bookwish-app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1C694-5FEB-4DD0-B8DE-73E90E9AB0F1}|bookwish-app\\bookwish-app.csproj|solutionrelative:bookwish-app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1C694-5FEB-4DD0-B8DE-73E90E9AB0F1}|bookwish-app\\bookwish-app.csproj|c:\\users\\cogito ergo sum\\source\\repos\\bookwish-app\\bookwish-app\\admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC1C694-5FEB-4DD0-B8DE-73E90E9AB0F1}|bookwish-app\\bookwish-app.csproj|solutionrelative:bookwish-app\\admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1C694-5FEB-4DD0-B8DE-73E90E9AB0F1}|bookwish-app\\bookwish-app.csproj|c:\\users\\cogito ergo sum\\source\\repos\\bookwish-app\\bookwish-app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4CC1C694-5FEB-4DD0-B8DE-73E90E9AB0F1}|bookwish-app\\bookwish-app.csproj|solutionrelative:bookwish-app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC1C694-5FEB-4DD0-B8DE-73E90E9AB0F1}|bookwish-app\\bookwish-app.csproj|c:\\users\\cogito ergo sum\\source\\repos\\bookwish-app\\bookwish-app\\creation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4CC1C694-5FEB-4DD0-B8DE-73E90E9AB0F1}|bookwish-app\\bookwish-app.csproj|solutionrelative:bookwish-app\\creation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\bookwish-app\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "bookwish-app\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\bookwish-app\\MainWindow.xaml.cs",
+              "RelativeToolTip": "bookwish-app\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwBcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:40:35.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\bookwish-app\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "bookwish-app\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\bookwish-app\\MainWindow.xaml",
+              "RelativeToolTip": "bookwish-app\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T06:40:33.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\bookwish-app\\MainMenu.xaml.cs",
+              "RelativeDocumentMoniker": "bookwish-app\\MainMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\bookwish-app\\MainMenu.xaml.cs",
+              "RelativeToolTip": "bookwish-app\\MainMenu.xaml.cs",
+              "ViewState": "AQIAAD0BAAAAAAAAAAAqwFUBAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:23:02.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Creation.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\bookwish-app\\Creation.xaml.cs",
+              "RelativeDocumentMoniker": "bookwish-app\\Creation.xaml.cs",
+              "ToolTip": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\bookwish-app\\Creation.xaml.cs",
+              "RelativeToolTip": "bookwish-app\\Creation.xaml.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAqwIEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:12:03.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Creation.xaml",
+              "DocumentMoniker": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\bookwish-app\\Creation.xaml",
+              "RelativeDocumentMoniker": "bookwish-app\\Creation.xaml",
+              "ToolTip": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\bookwish-app\\Creation.xaml",
+              "RelativeToolTip": "bookwish-app\\Creation.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T06:12:01.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\bookwish-app\\Admin.xaml.cs",
+              "RelativeDocumentMoniker": "bookwish-app\\Admin.xaml.cs",
+              "ToolTip": "C:\\Users\\Cogito Ergo Sum\\source\\repos\\bookwish-app\\bookwish-app\\Admin.xaml.cs",
+              "RelativeToolTip": "bookwish-app\\Admin.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:05:09.585Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

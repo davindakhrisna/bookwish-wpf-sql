@@ -1,0 +1,89 @@
+﻿<Window x:Class="bookwish_app.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bookwish_app"
+        mc:Ignorable="d"
+            Title="BookWish" Height="720" Width="1280"
+    WindowStartupLocation="CenterScreen">
+    <Grid>
+        <!-- Define Grid Rows and Columns -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Headbar -->
+            <RowDefinition Height="*"/>
+            <!-- Content Area -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <!-- Sidebar -->
+            <ColumnDefinition Width="*"/>
+            <!-- Main Content Area -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Sidebar -->
+        <StackPanel Grid.Column="0" Background="White" Grid.RowSpan="2">
+            <Image Source="pack://application:,,,/Resources/logo.png" Width="200" Height="100"/>
+            <Button Content="Discover" Style="{StaticResource SidebarButtonStyle}" Tag="pack://application:,,,/Resources/Main/discover.png" Click="Discover_Click" x:Name="DiscoverButton" Width="163" HorizontalAlignment="Center" Height="60" Cursor="Hand"/>
+            <Button Content="Category" Style="{StaticResource SidebarButtonStyle}" Tag="pack://application:,,,/Resources/Main/category.png" Click="Category_Click" x:Name="CategoryButton" Width="163" HorizontalAlignment="Center" Height="60" Cursor="Hand"/>
+            <Button Content="Best Seller" Style="{StaticResource SidebarButtonStyle}" Tag="pack://application:,,,/Resources/Main/bestseller.png" Click="BestSeller_Click" x:Name="BestSellerButton" Width="163" HorizontalAlignment="Center" Height="60" Cursor="Hand"/>
+            <Button Content="Favorite" Style="{StaticResource SidebarButtonStyle}" Tag="pack://application:,,,/Resources/Main/favorite.png" Click="Favorite_Click" x:Name="FavoriteButton" Width="163" HorizontalAlignment="Center" Height="60" Cursor="Hand"/>
+            <Button Content="My Cart" Style="{StaticResource SidebarButtonStyle}" Tag="pack://application:,,,/Resources/Main/cart.png" Click="MyCart_Click" x:Name="MyCartButton" Width="163" HorizontalAlignment="Center" Height="60" Cursor="Hand"/>
+            <Button Content="Log Out" Style="{StaticResource SidebarButtonStyle}" Tag="pack://application:,,,/Resources/Main/logout.png" Click="LogOut_Click" x:Name="LogoutButton" Width="164" HorizontalAlignment="Center" Margin="0, 100, 0, 0" Height="60" Cursor="Hand"/>
+        </StackPanel>
+
+        <!-- Headbar -->
+        <Grid Background="#FAFCFC" Height="65" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2">
+            <TextBox Style="{StaticResource RoundedTextBox}"
+     Width="203"
+     HorizontalAlignment="Left"
+     Margin="19,0,0,0"
+     VerticalAlignment="Center"
+     Padding="15,0,0,0"
+     Height="37"/>
+
+            <Button Content="Search" Background="Black" Foreground="White" Padding="10" Margin="238,14,736,14" Cursor="Hand" Click="Search_Click" FontSize="12" FontWeight="Normal">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" Padding="10" CornerRadius="10">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+            <Border Margin="820,0,10,0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Image Source="pack://application:,,,/Resources/Main/user.png" Width="35" Height="35" Margin="10,0,5,0"/>
+                    <TextBlock x:Name="UsernameTextBlock" VerticalAlignment="Center" Margin="10,0" Foreground="Black" FontSize="16"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- Main Content Area (Discover) -->
+        <Grid Grid.Row="1" Grid.Column="1" Background="#ECEFF6">
+            <ScrollViewer Grid.Row="1" Grid.Column="1" Background="#ECEFF6" Padding="20">
+                <StackPanel>
+                    <TextBlock x:Name="TextSection" Text="Recommended" FontSize="24" FontWeight="Bold" Margin="0,0,0,20" TextAlignment="Center"/>
+                    <WrapPanel x:Name="BooksWrapPanel" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        <!-- Book Items will be added here dynamically -->
+                    </WrapPanel>
+                </StackPanel>
+            </ScrollViewer>
+
+            <!-- Floating Button -->
+            <Button Content="Checkout" Width="100" Height="50" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="20" Background="#2461FF" Foreground="White" FontSize="16" FontWeight="SemiBold" Click="Checkout_Click" Visibility="Hidden" x:Name="CheckoutButton" Cursor="Hand">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
